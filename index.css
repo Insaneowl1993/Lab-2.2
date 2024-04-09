@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    background-image: radial-gradient(circle at center, white, rgba(0, 0, 0, 0.5)),
+    linear-gradient(to right, rgb(0, 81, 255), rgb(255, 208, 0));
+}
+
+article{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.style-me1 {
+    color: red;
+}
+
+#style-me2 {
+    color: blue;
+}
+
+.style-me1,
+#style-me2 {
+    color: purple;
+}
+
+.my-descendants-are-styled {
+    color: yellow;
+}
+p {
+    color: inherit;
+}
+
+.my-children-are-styled {
+    color: pink;
+}
+
+p {
+    color: inherit;
+}
+
+.box {
+    margin: 10px;
+    color: blueviolet;
+    background-color: peachpuff;
+    width: 90vw;
+    height: 10em;
+    border: 3px solid black;
+    border-radius: 20%;
+    text-align: center;
+    padding: 30px;
+    box-sizing: content-box;
+    overflow: scroll;
+    outline: 30px;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    background-color: blue;
+}
+
+a:focus {
+    color: gray;
+}
+
+a:visited {
+    color: pink;
+}
+
+.position-absolute {
+    position: absolute;
+    left:200px;
+    top: 0;
+    right: 200px;
+    bottom: 40px
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-sticky{
+    position: sticky;
+}
+
+.text-style {
+    color: rosybrown;
+    font-size: 30px;
+    letter-spacing: 0.08em;
+    line-height: 1em;
+    font-weight: 700;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    word-spacing: 0.5em;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.calc-style {
+    width: calc(100% - 40px);
+}
